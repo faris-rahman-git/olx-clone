@@ -1,12 +1,43 @@
-# React + Vite
+# 🛒 OLX Clone (Demo)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple OLX-style demo application where users can browse products, view details, and post ads with basic authentication.  
+This project is created for learning purposes with limited features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features (Demo)
 
-## Expanding the ESLint configuration
+- 🔐 **Login & Signup** (Firebase Auth )
+- 🖼 Browse ads by categories
+- 🔍 View product details
+- ➕ Post ads using a simple form
+- 💾 Save ads to Firestore 
+- 📱 Fully responsive UI
+- 🎨 Clean and lightweight OLX-inspired design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **React Router DOM**
+- **Firebase Authentication** (Email/Password)
+- **Firestore** 
+- **CSS**
+
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/your-username/olx-clone.git
+cd olx-clone
+npm install
+npm run dev
+```
+
+App runs on:
+
+👉 http://localhost:5173/
+
