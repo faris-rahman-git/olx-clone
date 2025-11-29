@@ -1,0 +1,25 @@
+/* Ensure the body and html fill the entire viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* The loading container should cover the whole screen */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full viewport height */
+  width: 100vw;  /* full viewport width */
+  position: fixed; /* fix the spinner to the screen */
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* optional: darkens the background */
+  z-index: 9999; /* ensure it's on top of all elements */
+}
+
+/* Customize spinner styling */
+.loading {
+  font-size: 20px;
+  color: #333;
+}
